@@ -25,11 +25,17 @@ make valgrind-chanutron
 ---
 ##  Funcionamiento
 
+En la funcion 'crear_hash' guarda memoria a un puntero a mi struct heap que contiene un vector de nodos llamado tabla con una capacidad minima de 3 y una cantidad inicializada en 0. 
 
 <div align="center">
-<img width="70%" src="img/">
+<img width="70%" src="img/memoria.png">
 </div>
 
+En caso de querer insertar un nodo clave/valor en una posicion nula, por ejemplo la posicion 0, seria algo asi: 
+
+<div align="center">
+<img width="70%" src="img/insercion.png">
+</div>
 ---
 
 ## Respuestas a las preguntas teóricas
